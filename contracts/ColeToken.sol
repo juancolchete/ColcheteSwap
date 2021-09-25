@@ -7,7 +7,7 @@ contract ColeToken{
     uint public totalSupply = 300000000 * 10 ** 18;
     string public name =  "Colchete Swap";
     string public symbol = "COLE";
-    uint public decilmals = 18;
+    uint public decimals = 18;
     
     event Transfer(address indexed from, address indexed to, uint value);
     event Approval(address indexed owner, address indexed spender, uint value);
