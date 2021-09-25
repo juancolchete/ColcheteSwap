@@ -5,7 +5,7 @@ contract ColeToken{
     mapping(address => uint) public balances;
     mapping(address => mapping(address => uint)) public allowance;
     uint public totalSupply = 300000000 * 10 ** 18;
-    string public name =  "Colchete Swap";
+    string public name =  "ColcheteSwap";
     string public symbol = "COLE";
     uint public decimals = 18;
     
